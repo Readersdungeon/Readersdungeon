@@ -6,8 +6,8 @@
     <title>ReadersDungeon</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts - Quintessential, Great Vibes, Lyra, and Libertinus Mono -->
-    <link href="https://fonts.googleapis.com/css2?family=Quintessential&family=Great+Vibes&family=Lyra&family=Libertinus+Mono&display=swap" rel="stylesheet">
+    <!-- Google Fonts - Quintessential, Great Vibes, Lyra, Libertinus Mono, and Almendra SC -->
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&family=Great+Vibes&family=Lyra&family=Libertinus+Mono&family=Almendra+SC&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Quintessential', cursive; /* Original font for the entire body */
@@ -16,7 +16,7 @@
             color: #f0f0f0; /* Off-white text */
             /* Added custom background image */
             background-image: url('9312cfb5-3260-4dd3-8a28-0dd6dfce1a6b.jpg'); /* Custom background image */
-            background-size: cover; /* Cover the entire viewport */
+            background-size: contain; /* Changed from 'cover' to 'contain' */
             background-repeat: no-repeat; /* Do not repeat the image */
             background-attachment: fixed; /* Fix the background so it doesn't scroll with content */
             background-position: center center; /* Center the background image */
@@ -28,6 +28,10 @@
         /* Custom font for the welcome paragraph */
         .font-libertinus-mono {
             font-family: 'Libertinus Mono', monospace; /* Using monospace as a fallback for Libertinus Mono */
+        }
+        /* Custom font for the title */
+        .font-almendra-sc {
+            font-family: 'Almendra SC', serif;
         }
 
         /* Custom scrollbar for a darker look */
